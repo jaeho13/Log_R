@@ -5,6 +5,7 @@ import styled from "styled-components";
 import LogIn from "./component/LogIn";
 import LogOut from "./component/LogOut";
 import Exam from "./component/Exam";
+import UserLogin from "./component/login/UserLogin";
 
 
 
@@ -18,6 +19,8 @@ function App() {
         <Route path="/login" element={<LogIn />}  />
         <Route path="/logout" element={<LogOut />}  />
         <Route path="/exam" element={<Exam />}  />
+        <Route path="/userlogin" element={<UserLogin />}  />
+
       </Routes>
       </Router>
     </div>
