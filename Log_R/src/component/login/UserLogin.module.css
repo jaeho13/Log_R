@@ -4,6 +4,12 @@ form {
     font-size: 20px;
 }
 
-/* #id {
-    border-width: 20px;
-} */
+#username {
+    width: 100px;
+    color: red;
+}
+
+#password {
+    width: 100px;
+    color: blue;
+}

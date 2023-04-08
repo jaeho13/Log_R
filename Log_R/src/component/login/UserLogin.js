@@ -1,5 +1,6 @@
 import React from "react";
-import form from "./UserLogin.module.css";
+import Styled from "./UserLogin.module.css";
+
 
 const UserLogin = props => {
     const logInHandler = (event) => {
@@ -9,10 +10,10 @@ const UserLogin = props => {
     return (
         <form>
             <label>ID</label>
-            <input id="ID" type="text" />
+            <input id={`${Styled.username}`} type="text" />
             <br></br>
             <label>Password</label>
-            <input id="Password" type="text" />
+            <input id={`${Styled.password}`} type="text" />
             <br></br>
             <button type="submit">로그인</button>
         </form>
