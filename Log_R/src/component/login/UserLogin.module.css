@@ -1,18 +1,43 @@
 form {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 20px;
+    border: 3px solid;
+    margin-left: 600px;
+    margin-right: 600px;
+    margin-top: 50px;
+}
+
+#id {
+    font-size: 30px;
+}
+
+#pass {
+    font-size: 30px;
 }
 
 #username {
-    width: 100px;
+    width: 200px;
     height: 20px;
     border: 2px solid;
+    margin-top: 1px;
+    margin-bottom: 15px;
 }
 
 #password {
-    width: 100px;
+    width: 200px;
     height: 20px;
     border: 2px solid;
     margin-top: 15px;
+}
+
+button {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+#join {
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
