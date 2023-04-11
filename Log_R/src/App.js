@@ -20,7 +20,6 @@ function App() {
         <Route path="/logout" element={<LogOut />}  />
         <Route path="/exam" element={<Exam />}  />
         <Route path="/userlogin" element={<UserLogin />}  />
-
       </Routes>
       </Router>
     </div>
@@ -28,3 +27,4 @@ function App() {
 }
 
 export default App;
+

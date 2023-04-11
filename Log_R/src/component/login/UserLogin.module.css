@@ -6,10 +6,13 @@ form {
 
 #username {
     width: 100px;
-    color: red;
+    height: 20px;
+    border: 2px solid;
 }
 
 #password {
     width: 100px;
-    color: blue;
+    height: 20px;
+    border: 2px solid;
+    margin-top: 15px;
 }
